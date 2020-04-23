@@ -1,0 +1,120 @@
+/*Style for navigation bar at top of screen*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(21, 21, 105);
+}
+
+.container {
+    padding: 16px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*Styling for webpage headers*/
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    color: blue;
+}
+
+h2 {
+    text-align: left;
+    font-size: x-large;
+    color: blue;
+}
+
+/*Styling for the input text fields*/
+input[type=text], input[type=password] {
+    width: 10%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+  
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.container {
+    padding: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Styling for the table*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+table {
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFAD2;
+}
+
+table tr:nth-child(even) {
+    background-color:rgb(219, 217, 217);
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(219, 217, 217);
+
+}
+  
+table th {
+    color: white;
+    background-color: blue;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*Styling for the button*/
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+}
+  
+button:hover {
+    opacity:1;
+}

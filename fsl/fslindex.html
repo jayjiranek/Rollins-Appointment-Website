@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="fslstyle.css">
+        <title>Fraternity & Sorority Life Appointment Request</title>
+    </head>
+
+    <!--Creates the form for users to submit an appointment request-->
+    <body>
+        <p class="logo">
+            <img src="../img/rollinslogo.png" alt="logo" width="300" hieght="250px">
+        </p>
+
+        <h1>Fraternity & Sorority Life Appointment Request</h1>
+        <form action="../includes/fsl.inc.php" method="POST" style="border:2px solid blue">
+          <div class="container">
+
+            <hr>
+            
+            <label for="rnumber"><b>R number</b></label>
+            <input type="text" id="rnumber" name="rnumber" placeholder="Enter Your R-Number">
+            <br>
+
+            <label for="name"><b>Full Name</b></label>
+            <input type="text" id="fullname" name="fullname" placeholder="Your Full Name">
+            <br>
+
+            <label for="reason"><b>Reasoning</b></label>
+            <input type="text" id="reason" name="reason" placeholder="Why are you requesting an appointment with Fraternity & Sorority Life?">
+            <br>
+
+            <label for="appt_date"><b>Enter the date for your appointment request (MM/DD/YYY - HH:MM)</b></label>
+            <input type="text" id="appt_date" name="appt_date" placeholder="In the format of MM/DD/YYY - HH:MM">
+            <br>
+            
+            <div class="clearfix"></div>
+              <button type="submit" name="submit" onclick="alert('Appointment has been made')">Submit Request</button>
+            </div>
+          </div>
+        </form>
+        
+    </body>
+
+</html>

@@ -1,0 +1,64 @@
+/*Styling for navigation bar at top of screen*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(21, 21, 105);
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+/*Styling for logo and for title headers*/
+.logo {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    color: blue;
+}
+
+h4 {
+    text-align: left;
+    font-size: x-large;
+    color: blue;
+}
+
+/*Styling for table*/
+.table {
+    border-collapse: collapse;
+    width: 75%;
+    color: blue;
+    font-size: 20px;
+    text-align: right;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: blue;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+h5 {
+  font-size: large;
+}
